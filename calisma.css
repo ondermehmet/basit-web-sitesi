@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.container{
+    background: url(http://mediatrend.mediamarkt.com.tr/wp-content/uploads/2017/02/2017_subat_03.jpg);
+    background-size: 100% 100%;
+    height: 45rem;
+}
+.container .navbar{
+    background-color: rgba(129, 82, 231, 0.5);
+    height: 80px;
+
+}
+.container .navbar #logo{
+    display: inline-block;
+    
+}
+#png{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-top: 30px;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    padding: 20px;
+}
+
+a.anasayfa,
+a.anasayfa:hover{
+    background-color: yellow;
+    border-radius: 10px;
+}
+
+.container .center{
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 150px;
+    color: white;
+}
+.center h1{
+    color: cornflowerblue;
+}
+.center button{
+    background-color: red;
+    color: white;
+    border-radius: 30px;
+    padding: 12px 20px 12px 20px;
+    border-color: red;
+    font-size: 15px;
+    margin: 15px 5px;
+}
